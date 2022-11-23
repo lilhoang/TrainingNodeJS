@@ -1,0 +1,49 @@
+<div class="container-fluid" style="height: 100vh;">
+    <form action="/register" method="post">
+        <div class="row">
+            <div class="col-md-5 form-regist"
+                style="background-image: url('./img/exp2.jpg') ;">
+            </div>
+            <div class="col-md-7 p-5 ">
+                <div class="row pb-3">
+                    <div class="col-md-12">
+                        <label for="name" class="form-label">Name</label>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-md-6">
+                        <label for="date" class="form-label">Birthdate</label>
+                        <input name="date" type="date" class="form-control" id="date">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select name="gender" id="gender" class="form-select">
+                            <option selected value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-md-12">
+                        <label for="class" class="form-label">Class</label>
+                        <select name="class" id="class" class="form-select">
+                            <option selected>T2109M</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-md-6">
+                        <label for="code" class="form-label">Registration code</label>
+                        <input name="code" type="text" class="form-control" id="code" placeholder="Enter Registration code">
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-md-3">
+                        <button class="btn btn-primary font-weight-bold" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
